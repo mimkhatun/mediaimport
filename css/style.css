@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 35px;
+    text-align: left;
+    padding: 20px;
+    background-color: bisque;
+    color: black;
+}
+
+.parrallax{
+    background-image: url(../img/pic5\ \(1\).lnk);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;      
+    
+}
+
+.parallax1{
+    background-image:url(../img/pic5\ \(2\).lnk);
+    min-height: 600px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+.p{
+    font-size: 30px;
+    background-color: bisque;
+    color: brown;
+    padding: 20px;
+}
+@media only screen and (max-width:1440px){
+    body{
+        background-color:hotpink ;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+        text-align: left;
+        padding: 20px;
+        background-color: bisque;
+        color: black;
+    }
+    .parrallax{
+        background-image: url(../img/pic5\ \(1\).lnk);
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+    }
+    .design1{
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+        background-color: azure;
+        color: black;
+    }
+    .parallax1{
+        background-image:url(../img/pic5\ \(2\).lnk);
+        min-height: 600px; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .p{
+        font-size: 30px;
+        background-color: bisque;
+        color: brown;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:1024px){
+    body{
+        background-color:aqua;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 28px;
+        text-align: right;
+        padding: 20px;
+        background-color: darkmagenta;
+        color:white;
+    }
+    .parrallax{
+        background-image: url(../img/pic5\ \(1\).lnk);
+        min-height: 550px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+    }
+    .design1{
+        font-size: 28px;
+        text-align: center;
+        padding: 20px;
+        background-color: firebrick;
+        color: white;
+    }
+    .parallax1{
+        background-image:url(../img/pic5\ \(2\).lnk);
+        min-height: 550px; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .p{
+        font-size: 30px;
+        background-color: forestgreen;
+        color:white;
+        padding: 17px;
+    }
+
+
+}
+@media only screen and (max-width:768px){
+    body{
+        background-color:blue;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+        background-color:khaki;
+        color: black;
+    }
+    .parrallax{
+        background-image: url(../img/pic5\ \(1\).lnk);
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+    }
+    .design1{
+        font-size: 30px;
+        text-align: left;
+        padding: 20px;
+        background-color: green;
+        color: whitesmoke;
+    }
+    .parallax1{
+        background-image:url(../img/pic5\ \(2\).lnk);
+        min-height: 600px; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .p{
+        font-size: 27px;
+        color: tomato;
+        background-color: cyan;
+        padding: 15px;
+    }
+
+
+}
+@media only screen and (max-width:425px){
+    body{
+        background-color:crimson;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size:10px;
+        text-align: center;
+        padding:5px;
+        background-color: lightcoral;
+        color:white;
+    }
+    .parrallax{
+        background-image: url(../img/pic5\ \(1\).lnk);
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+    }
+    .design1{
+        font-size: 10px;
+        text-align: right;
+        padding: 10px;
+        background-color: fuchsia;
+        color: black;
+    }
+    .parallax1{
+        background-image:url(../img/pic5\ \(2\).lnk);
+        min-height: 400px; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .p{
+        font-size: 20px;
+        color:gold;
+        background-color: darkorange;
+        padding: 12px;
+    }
+
+
+}
+@media only screen and (max-width:375px){
+    body{
+        background-color:tomato ;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 12px;
+        text-align: left;
+        padding: 12px;
+        background-color: yellowgreen;
+        color: black;
+    }
+    .parrallax{
+        background-image: url(../img/pic5\ \(1\).lnk);
+        min-height: 200px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+    }
+    .design1{
+        font-size: 12px;
+        text-align: right;
+        padding: 12px;
+        background-color: violet;
+        color: white;
+    }
+    .parallax1{
+        background-image:url(../img/pic5\ \(2\).lnk);
+        min-height: 200px; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .p{
+        font-size: 15px;
+        color: darkorchid;
+        background-color: beige;
+        padding: 10px;
+    }
+
+
+}
+@media only screen and (max-width:320px){
+    body{
+        background-color:goldenrod;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 10px;
+        text-align: right;
+        padding: 10px;
+        background-color: royalblue;
+        color: red;
+    }
+    .parrallax{
+        background-image: url(../img/pic5\ \(1\).lnk);
+        min-height: 200px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;    
+    }
+    .design1{
+        font-size: 10px;
+        text-align: left;
+        padding: 10px;
+        background-color: red;
+        color: royalblue;
+    }
+    .parallax1{
+        background-image:url(../img/pic5\ \(2\).lnk);
+        min-height: 200px; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .p{
+        font-size: 10px;
+        color: red;
+        background-color: blue;
+        padding: 10px;
+    }
+}
+
+
+
+
+
